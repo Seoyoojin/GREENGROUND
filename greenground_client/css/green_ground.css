@@ -68,9 +68,9 @@ video{object-fit: fill; }
 .con-login .right .form fieldset .field{overflow: hidden; margin-top: 10px; border: 1px solid #aaa;}
 .con-login .right .form fieldset .field .inp-field{width: 100%; height: 35px; margin: 5px 5px 5px 10px; border: 0 none; color: #8e8e8e; font-size: 14px; line-height: 28px;}
 .con-login .right .form fieldset .btn-area{position:relative; margin: 5px 0}
-.con-login .right .form fieldset .btn-area .ggLogo{display: block; position: absolute; width: 25px; height: 25px; background: url(../image/ggLogo.png) no-repeat 0 0; text-indent: -999em; top: 50%; left: 80px; margin-top: -8px; }
-.con-login .right .form fieldset .btn-area .naverLogo{display: block; position: absolute; width: 25px; height: 25px; background: url(../image/naverLogo.png) no-repeat 0 0; text-indent: -999em; top: 50%; left: 80px; margin-top: -12px; }
-.con-login .right .form fieldset .btn-area .facebookLogo{display: block; position: absolute; width: 25px; height: 25px; background: url(../image/facebookLogo.png) no-repeat 0 0; text-indent: -999em; top: 50%; left: 80px; margin-top: -12px; }
+.con-login .right .form fieldset .btn-area .ggLogo{display: block; position: absolute; width: 25px; height: 25px; background: url(../image/ggLogo.png) no-repeat 0 0; text-indent: -999em; top: 50%; left: 10%; margin-top: -8px; }
+.con-login .right .form fieldset .btn-area .naverLogo{display: block; position: absolute; width: 25px; height: 25px; background: url(../image/naverLogo.png) no-repeat 0 0; text-indent: -999em; top: 50%; left: 10%; margin-top: -12px; }
+.con-login .right .form fieldset .btn-area .facebookLogo{display: block; position: absolute; width: 25px; height: 25px; background: url(../image/facebookLogo.png) no-repeat 0 0; text-indent: -999em; top: 50%; left: 10%; margin-top: -12px; }
 .con-login .right .form fieldset .btn-area .btn-submit{width: 100%; height: 40px; border: 0 none; color: #8e8e8e; font-size: 15px; line-height: 28px;}
 .con-login .right .form fieldset .btn-area .btn-submit.gg{color: #fff; background-color:#aaa }
 .con-login .right .form fieldset .btn-area .btn-submit.gg:hover{background-color: #888}
