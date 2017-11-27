@@ -1,0 +1,27 @@
+/* reset */
+@font-face{
+        font-family:NanumGothic; 
+            src:url(../fonts/NanumGothic.eot); 
+            src:url(../fonts/NanumGothic.eot?#iefix) format('embedded-opentype'),
+                url(../fonts/NanumGothic.woff) format('woff'),
+                url(../fonts/NanumGothic.ttf) format('truetype')
+        }
+html,body{width:100%;height:100%;margin:0;padding:0;}
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select{margin:0;padding:0}
+body,h1,h2,h3,h4,h5,h6,input,textarea,select,button,table{font-family:Nanumgothic,"Trebuchet MS","Helvetica Neue",Helvetica,sans-serif;font-size:12px}
+img,fieldset{border:0}
+img{vertical-align:top}
+ul,ol{list-style:none}
+em,address{font-style:normal}
+.blind,legend{display:block;position:absolute;left:0;top:-9999em;overflow:hidden}
+table{border-collapse:collapse}
+caption{position:absolute;left:0;top:-9999em;overflow:hidden;height:0;width:0;font-size:0;line-height:0}
+hr{display:none}
+a{text-decoration:none}
+a:hover,a:active,a:focus{text-decoration:underline}
+.skip-navigation a{position: absolute; z-index: 999; left:0; top:-999em; display: block;width: 100%;background-color: #00f; color: #fff; font:800 12px/24px verdana,sans-serif; text-align: center}
+.skip-navigation a:focus{top: 0}
+.clearfix{*zoom: 1; text-align:center;}
+.clearfix:after{content: '';display: block; clear: both}
+
+/*style*/
