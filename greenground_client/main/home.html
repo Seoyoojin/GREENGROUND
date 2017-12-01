@@ -379,16 +379,27 @@
 		</div>
 		<div id="button">
 			 <div class="parent2">
+<<<<<<< HEAD
 				  <div class="test1"><i class="fa fa-user fa-2x"></i></div>
 				  <div class="test2"><i class="fa fa-graduation-cap fa-2x"></i></div>
 				  <div class="test3"><i class="fa fa-code fa-2x"></i></div>
 				  <div class="test4"><i class="fa fa-envelope-o fa-2x"></i></div>
 				  <div class="mask2"><i class="fa fa-home fa-3x"></i></div>
 			</div>
+=======
+  <div class="delBtn"><i class="fa fa-trash fa-2x" title="그룹 삭제하기" data-toggle="tooltip"></i></div>
+  <div class="joinBtn"><i class="fa fa-sign-in fa-2x" title="그룹 참가하기" data-toggle="tooltip"></i></div>
+  <div class="createBtn"><i class="fa fa-plus fa-2x" title="그룹 만들기" data-toggle="tooltip"></i></div>
+  <div class="homeBtn"><i class="fa fa-plus fa-3x"></i></div>
+</div>
+>>>>>>> 28a3b7b192c1fc9e4c5e873e0abd0dc899894582
 		</div>
+
+
 	</div>
 
 	<script>
+<<<<<<< HEAD
 		$(document).ready(function() {
 			$('[data-toggle="tooltip"]').tooltip();
 		});
@@ -428,6 +439,31 @@
 			      
 			    });
 			});
+=======
+
+		$(document).ready(function() {
+$('[data-toggle="tooltip"]').tooltip();
+  var active1 = false;
+  var active2 = false;
+  var active3 = false;
+  var active4 = false;
+
+    $('.parent2').on('mousedown touchstart', function() {
+    
+    if (!active1) $(this).find('.delBtn').css({'background-color': 'gray', 'transform': 'translate(0px,-125px)'});
+    else $(this).find('.delBtn').css({'background-color': 'dimGray', 'transform': 'none'}); 
+     if (!active2) $(this).find('.joinBtn').css({'background-color': 'gray', 'transform': 'translate(-60px,-105px)'});
+    else $(this).find('.joinBtn').css({'background-color': 'darkGray', 'transform': 'none'});
+      if (!active3) $(this).find('.createBtn').css({'background-color': 'gray', 'transform': 'translate(-105px,-60px)'});
+    else $(this).find('.createBtn').css({'background-color': 'silver', 'transform': 'none'});
+    active1 = !active1;
+    active2 = !active2;
+    active3 = !active3;
+    active4 = !active4;
+      
+    });
+});
+>>>>>>> 28a3b7b192c1fc9e4c5e873e0abd0dc899894582
 	</script>
 </body>
 </html>
