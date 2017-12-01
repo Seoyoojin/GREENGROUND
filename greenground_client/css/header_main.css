@@ -4,10 +4,10 @@
 #header .logo a{float: left; width: 200px; height: 100px; margin: 25px 0 25px 5%;  background: url(../image/logo.png) no-repeat 0 0;}
 #header .right{float: right;}
 
-#header .right .top{ padding-right: 15%; }
+#header .right .top{ padding-right: 15%; padding-top: 5%; }
 #header .right .top .profile a{display: block; float: left; margin-top: 5%; margin-left: 25%; width: 50px; height: 50px; background: url(../image/profile.jpg) no-repeat 50% 50%/cover; border-radius: 50%; text-indent: -9999em;}
 #header .right .top .profile a:hover{opacity: .6}
-#header .right .top .wel{float: right; padding: 22px 15px 0; text-align: right;}
+#header .right .top .wel{float: right; padding: 15px 0; text-align: right;}
 #header .right .top .wel a{color: #45494e; font: 700 16px/50px "NanumGothic",sans-serif; text-decoration: none;}
 #header .right .top .wel a:hover{color:#00c43b}
 
