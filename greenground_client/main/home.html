@@ -398,11 +398,19 @@ $('[data-toggle="tooltip"]').tooltip();
 
     $('.parent2').on('mousedown touchstart', function() {
     
+<<<<<<< HEAD
     if (!active1) $(this).find('.delBtn').css({'background-color': '#00c43b', 'transform': 'translate(0px,-125px)'});
     else $(this).find('.delBtn').css({'background-color': 'dimGray', 'transform': 'none'}); 
      if (!active2) $(this).find('.joinBtn').css({'background-color': '#00c43b', 'transform': 'translate(-85px,-85px)'});
     else $(this).find('.joinBtn').css({'background-color': 'darkGray', 'transform': 'none'});
       if (!active3) $(this).find('.createBtn').css({'background-color': '#00c43b', 'transform': 'translate(-125px,0px)'});
+=======
+    if (!active1) $(this).find('.delBtn').css({'background-color': 'gray', 'transform': 'translate(-125px,0px)'});
+    else $(this).find('.delBtn').css({'background-color': 'dimGray', 'transform': 'none'}); 
+     if (!active2) $(this).find('.joinBtn').css({'background-color': 'gray', 'transform': 'translate(-85px,-85px)'});
+    else $(this).find('.joinBtn').css({'background-color': 'darkGray', 'transform': 'none'});
+      if (!active3) $(this).find('.createBtn').css({'background-color': 'gray', 'transform': 'translate(0px,-125px)'});
+>>>>>>> 56d456a43716034d3118791cc79b70f0c6bcff50
     else $(this).find('.createBtn').css({'background-color': 'silver', 'transform': 'none'});
     active1 = !active1;
     active2 = !active2;
