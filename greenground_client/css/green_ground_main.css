@@ -1,4 +1,4 @@
-/* reset */
+ /* reset */
 @font-face{
         font-family:NanumGothic; 
             src:url(../fonts/NanumGothic.eot); 
@@ -34,8 +34,8 @@ body{background-color:#ECF0F1;}
 }
 .btn-default {
     color: #333;
-    background-color: #009688;
-    border-color: #009688;
+    background-color: #00c43b;
+    border-color: #00c43b;
     border-radius:0px;
     color:#fff;
 }
@@ -100,10 +100,11 @@ body{background-color:#ECF0F1;}
     margin-bottom: 15px;
     padding-bottom: 10px;    
     margin-top: 0px;
+    font-weight: bold;
 }
 
 .title-widget-sidebar:after {
-    border-bottom: 2px solid #f1c40f;
+    border-bottom: 2px solid #00c43b;
     width: 150px;
     display: block;
     position: absolute;
@@ -117,13 +118,6 @@ body{background-color:#ECF0F1;}
 .recent-post .post-desc .tle a{text-decoration: none; color:#000;}
 .recent-post .post-desc .date{padding: 2% 0;}
 .recent-post .post-desc .date .fa-calendar{padding-right: 1.5%; font-size: 14px; color: #434d6c;}
-
-
-
-
-
-
-
 
 /* 버튼 */
 #button{
@@ -150,28 +144,28 @@ box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 .delBtn {
   width:60%;
   height:60%;
-  background-color:dimGray;
+  background-color:#00c43b;
   border-radius:50%;
   position:absolute;
   color:white;
   text-align:center;
   line-height:70px;
-    top:25%;
+  top:25%;
   left:25%;
   cursor:pointer;
   transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
-    position:absolute;
+  position:absolute;
 }
 .joinBtn {
   width:60%;
   height:60%;
-  background-color:dimGray;
+  background-color:#00c43b;
   border-radius:50%;
   position:absolute;
   color:white;
   text-align:center;
   line-height:70px;
-    top:25%;
+  top:25%;
   left:25%;
   cursor:pointer;
   transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550) .2s;
@@ -179,13 +173,13 @@ box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 .createBtn {
   width:60%;
   height:60%;
-  background-color:dimGray;
+  background-color:#00c43b;
   border-radius:50%;
   position:absolute;
   color:white;
   text-align:center;
   line-height:70px;
-    top:25%;
+  top:25%;
   left:25%;
   cursor:pointer;
   transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550) .4s;  
@@ -195,7 +189,7 @@ box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
   right: 100px;
   width:100px;
   height:100px;
-  background:darkSlateGray;
+  background:#191d28;
   border-radius:50%;
   position:absolute;
   z-index:21;

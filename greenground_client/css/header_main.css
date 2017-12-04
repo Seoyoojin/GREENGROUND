@@ -4,7 +4,7 @@
 #header .logo a{float: left; width: 200px; height: 100px; margin: 25px 0 25px 5%;  background: url(../image/logo.png) no-repeat 0 0;}
 #header .right{float: right;}
 
-#header .right .top{ padding-right: 15%; padding-top: 5%;}
+#header .right .top{ padding-right: 15%; padding-top: 5%; }
 #header .right .top .profile:hover{opacity: .6; cursor: pointer}
 #header .right .top .profile{position: relative;}
 #header .right .top .profile a{display: block; float: left; margin-top: 5%; margin-left: 21%; width: 55px; height: 55px; background: url(../image/profile.jpg) no-repeat 50% 50%/cover; border-radius: 50%; text-indent: -9999em;}
